@@ -8,9 +8,6 @@ body {
 }
 /* .spaziatura-2 {
   margin: 60px 0;
-}
-.spaziatura-3 {
-  margin: 90px 0;
 } */
 
 .conteiner {
@@ -32,6 +29,11 @@ body {
   height: auto;
 }
 
+#autore-header {
+  font-size: 20px;
+  font-style: italic;
+}
+
 .author {
   color: rgb(198, 198, 198);
   margin: 0;
@@ -42,6 +44,10 @@ h1 {
   /* font-size: 2.3rem; */
   font-size: 36.5px;
   margin-bottom: 0;
+}
+
+.immagini-tim {
+  border-top: 30px;
 }
 
 /* Stile link */
@@ -84,11 +90,36 @@ thead {
 }
 
 .tabella {
-  table-layout: fixed;
   width: 100%;
   border: none;
 }
 
 td {
   min-width: 250px;
+}
+
+h2 {
+  color: rgb(198, 198, 198);
+}
+
+.img-pc {
+  color: white;
+  background-image: url(/img/monitor.jpg);
+  background-repeat: no-repeat;
+  height: 208px;
+  text-align: top left;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.img-graph {
+  color: white;
+  background-image: url(/img/graph.jpg);
+  background-repeat: no-repeat;
+  height: 208px;
+  text-align: top left;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px;
 }
