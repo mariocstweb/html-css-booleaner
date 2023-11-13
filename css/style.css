@@ -57,3 +57,38 @@ ul {
   list-style-position: inside;
   padding-left: 0;
 }
+
+/* Evindenziare testo */
+span {
+  background-color: #ffff00;
+}
+
+/* Stile Righe Tabella */
+/* table col {
+  background-color: white
+  color: #000000;
+}
+table col.even {
+  background-color: #B1E5F2;
+  color: #000000;
+} */
+
+thead {
+  background-color: #20a9e5;
+  color: white;
+  text-align: left;
+}
+.riga-1 {
+  background-color: #b1e5f2;
+  color: #000000;
+}
+
+.tabella {
+  table-layout: fixed;
+  width: 100%;
+  border: none;
+}
+
+td {
+  min-width: 250px;
+}
